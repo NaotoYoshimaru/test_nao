@@ -5,26 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>手書き数字識別</title>
+    <link rel="stylesheet" href="./static/sanitize.css">
     <link rel="stylesheet" href="./static/stylesheet.css">
+
 </head>
 <body>
     <header>
-        <img class="header_img" src="img/gr_logo-a_bw.png" alt="goodround">
+        <img class="header_img" src="./img/gr_logo-a_bw.png" alt="goodround">
         <a class="header-logo" href="#">手書き数字識別</a>
     </header>
 
-    <div class="main">
-        <h2> AIが送信された画像の数字を識別します</h2>
-        <p>画像を送信してください</p>
-        <form method="POST" enctype="multipart/form-data">
-            <input class="file_choose" type="file" name="file">
-            <input class="btn" value="submit!" type="submit">
-        </form>
-        <div class="answer">{{answer}}</div>
+    <div class="content">
+        <div class="main">
+            <h2> AIが送信された画像の数字を識別します</h2>
+            <p>画像を送信してください</p>
+            <form method="POST" enctype="multipart/form-data">
+                <input class="file_choose" type="file" name="file">
+                <input class="btn" value="submit!" type="submit">
+            </form>
+            <div class="answer">{{answer}}</div>
+        </div>
     </div>
 
     <footer>
-        <img class="footer_img" src="img/gr_logo-a_bw.png" alt="goodround">
+        <img class="footer_img" src="./img/gr_logo-a_bw.png" alt="goodround">
         <small>&copy; 2020 GOODROUND, inc.</small>
     </footer>
 </body>
