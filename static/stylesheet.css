@@ -9,7 +9,7 @@ header {
 
 .header-logo {
   color: #fff;
-  font-size: 15px;
+  font-size: 10px;
   margin: 15px 25px;
 }
 
@@ -69,4 +69,8 @@ small {
   margin: 10px auto;
   border: 1px solid #d1d1d1;
   padding: 30px
+}
+
+body {
+  background-color: #fafafa
 }
