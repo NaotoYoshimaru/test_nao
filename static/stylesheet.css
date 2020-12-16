@@ -10,11 +10,11 @@ header {
 .header-logo {
   color: #fff;
   font-size: 10px;
-  margin: 15px 25px;
+  margin: 15px 10px;
 }
 
 .header_img {
-  height: 25px;
+  height: 30px;
   margin: 15px 25px;
 }
 
@@ -64,10 +64,10 @@ small {
 }
 
 .content{
-  background-color: #fff;
+  background-color: rgb(173, 219, 202);
   width: 600px;
   margin: 10px auto;
-  border: 1px solid #d1d1d1;
+  border: 1px solid #dfbdbd;
   padding: 30px
 }
 
