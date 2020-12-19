@@ -67,7 +67,8 @@ small {
 
 .content {
     background-color: #f0f0f0;
-    width: 600px;
+    position: relative;
+    min-width: 600px;
     margin: 30px ;
     border: 1px solid #d1d1d1;
     padding: 30px;
