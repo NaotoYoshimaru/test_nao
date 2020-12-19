@@ -1,76 +1,74 @@
 header {
-  background-color: #066606;
-  height: 60px;
-  margin: -8px;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+    background-color: #81eaf8;
+    height: 60px;
+    margin: -8px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 .header-logo {
-  color: #fff;
-  font-size: 10px;
-  margin: 15px 10px;
+    color: rgb(7, 7, 7);
+    font-size: 25px;
+    margin: 15px 25px;
 }
 
-.header_img {
-  height: 30px;
-  margin: 15px 25px;
-}
 
 .main {
-  height: 370px;
+    height: 370px;
 }
 
 h2 {
-  color: #444444;
-  margin: 90px 0px;
-  text-align: center;
+    color: #444444;
+    margin: 90px 0px;
+    text-align: center;
 }
 
 p {
-  color: #444444;
-  margin: 70px 0px 30px 0px;
-  text-align: center;
+    color: #444444;
+    margin: 70px 0px 30px 0px;
+    text-align: center;
 }
 
 .answer {
-  color: #444444;
-  margin: 70px 0px 30px 0px;
-  text-align: center;
+    color: #444444;
+    margin: 70px 0px 30px 0px;
+    text-align: center;
 }
 
 form {
-  text-align: center;
+    text-align: center;
+}
+
+h2 {
+    color: #444444;
+    text-align: center;
 }
 
 footer {
-  background-color: #F7F7F7;
-  height: 110px;
-  margin: -8px;
-  position: relative;
+    background-color: #F7F7F7;
+    height: 110px;
+    margin: -8px;
+    margin-top: 50px;
+    position: relative;
 }
 
 .footer_img {
-  height: 15px;
-  margin: 15px 25px;
+    height: 25px;
+    margin: 15px 25px;
 }
 
 small {
-  margin: 15px 25px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+    margin: 15px 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
-.content{
-  background-color: rgb(173, 219, 202);
-  width: 600px;
-  margin: 10px auto;
-  border: 1px solid #dfbdbd;
-  padding: 30px
-}
-
-body {
-  background-color: #fafafa
-}
+.content {
+    background-color: #f0f0f0;
+    width: 600px;
+    margin: 30px ;
+    border: 1px solid #d1d1d1;
+    padding: 30px;
+  }
