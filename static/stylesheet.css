@@ -11,6 +11,8 @@ header {
     color: rgb(7, 7, 7);
     font-size: 25px;
     margin: 15px 25px;
+    margin-right: auto;
+    
 
 }
 
@@ -57,6 +59,7 @@ footer {
 .footer_img {
     height: 25px;
     margin: 15px 25px;
+    position: center;
 }
 
 small {
