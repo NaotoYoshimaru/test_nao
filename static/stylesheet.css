@@ -4,7 +4,7 @@ header {
     margin: -8px;
     display: flex;
     flex-direction: row-reverse;
-    text-align: left;
+    float: left;
 
 }
 
@@ -12,7 +12,7 @@ header {
     color: rgb(7, 7, 7);
     font-size: 25px;
     margin: 15px 25px;
-    text-align: left;
+    float: left;
 }
 
 
