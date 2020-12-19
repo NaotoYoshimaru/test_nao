@@ -4,7 +4,8 @@ header {
     margin: -8px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    text-align: left;
+
 }
 
 .header-logo {
